@@ -76,7 +76,7 @@ PDiff的insight可以说是从由上及下的三个层次进行展开：
 
 首先确定和patch相关的函数，和被patch影响的基本块。
 **选择策略：**
-1. 所有被patch影响的路径最终都会经过anchor block。
+1. 所有被patch影响的路径最终都会anchor block。
 2. Anchor block后没有和patch相关的代码。 
 3. 最后确定的reference anchor block必须在patch前/后的版本都为anchor block。
 
